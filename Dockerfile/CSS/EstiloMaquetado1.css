@@ -1,0 +1,92 @@
+nav,header,main,footer{
+    margin: 10px;
+    display: block;
+}
+.contenedor{
+    width: 1000px;
+    height: 1000px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.grupo{
+    background-color: #32CD32;
+    height: 100px;
+}
+
+.grupo li{
+    list-style: none;
+    display: inline-block ;
+    background-color: #fff;
+    width: 160px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+}
+.cuerpo{
+    width: 980px;
+    background-color:#4682B4 ;
+    height: 300px;
+    position: relative;
+    margin: 1opx;
+    padding: 1px;
+    align-items: center;
+}
+.cuerpo2{
+    clear:both;
+    width: 980px;
+    height: 500px;
+    background-color:#FFFFE0 ;
+    margin: 10px;
+}
+.pie{
+    width: 980px;
+    height: 50px;
+    background-color:#FFD700;
+}
+.cuerpo2 aside, aside, article {
+    margin: 5px 5px;
+    display: inline-block;
+    width: 200px;
+    height: 480px;
+    background-color: #fff;
+}
+.cuerpo2 article{
+    width: 500px;
+    height: 480px;
+    background-color: #fff;
+}
+
+.titulo{
+    width:800px;
+    height:280px;
+    background-color: #fff;
+    border:1px solid #000;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.cuerpo logo, login, form{
+    width:145px;
+    height:85px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.contenedor-derecha {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
